@@ -30,7 +30,7 @@ example:1093340_proj_2 test_data/test1.txt 2
 為自製測資，有li、bed、bne、add、addi，
 
 ## 執行結果
-以test_data/test1.txt為例
+以test_data/test1.txt為例，entry數量設定為2個
 ```
 entrys : 2
 ---------------------------------------------------------
