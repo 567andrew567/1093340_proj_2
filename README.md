@@ -10,6 +10,15 @@ g++ -g 1093340_proj_2.cpp -o 1093340_proj_2
 ### 執行
 1093340_proj_2 測資路徑 entry數量\
 example:1093340_proj_2 test_data/test1.txt 2
+###錯誤說明
+* argv error\
+代表參數數量有問題
+* open file error\
+代表測資路徑有誤
+* entry error\
+代表設定entry有問題，只能為2的次方
+* error!!!instruction not found\
+代表輸入有無法執行的instruction
 
 ## 測資說明
 測資共有三分，接放置於**test_data**資料夾中，分別為:\
@@ -394,3 +403,5 @@ R30 : 0
 R31 : 0
 
 ```
+輸出以**-------** 分割，第一格為entry數量，第二格為輸入測資，第三格為整份code(處理完成的)，第四格為所有label及他們的位置，
+接下來為每次執行一行code的結果，最後會輸出，每個predictor及register的狀態
