@@ -1,0 +1,7 @@
+0x110		li R1,16;  //R1=16
+0x114		li R2,0; //R2=0
+	LoopI:
+0x118		beq R1,R2,EndLoopI; //R1==R2 EndLoopI
+0x11C		addi R2,R2,1; //R2+=1
+0x120	beq R0,R0,LoopI; //Go back to LoopI
+	EndLoopI:

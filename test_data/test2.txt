@@ -1,0 +1,12 @@
+0x110		li R1,16;  //R1=16
+0x114		li R2,0; //R2=0
+0x118		li R4,0;
+	LoopI:
+0x11C		beq R1,R2,EndLoopI; //R1==R2 EndLoopI
+0x120		andi R3,R2,1;//R3%2
+0x124		bne R3,R0,Endif;//if R3!=0 branch
+0x128		add R4,R4,R2;//R4+=R2
+	Endif:
+0x13C		addi R2,R2,1; //R2+=1
+0x130		beq R0,R0,LoopI; //Go back to LoopI
+	EndLoopI:
