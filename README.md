@@ -21,11 +21,11 @@ example:1093340_proj_2 test_data/test1.txt 2
 代表輸入有無法執行的instruction
 
 ## 測資說明
-測資共有三分，接放置於**test_data**資料夾中，分別為:\
+測資共有三分，接放置於**test_data**資料夾中，分別為:
 * **test.txt**\
 為老師網頁上的範例測資，有li、bed、bne、add、addi、andi，
 * **test1.txt**\
-為老師上課範例，只有li、beq及addi
+為簡單範例，只有li、beq及addi
 * **test2.txt**\
 為自製測資，有li、bed、bne、add、addi，
 
