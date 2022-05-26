@@ -54,11 +54,6 @@ int main(int argc, char *argv[]) {
         Reg_map["R" + to_string(i)] = i;
     }
 
-    if (!in) {
-        cout << "File not found\n";
-        system("pause");
-        return 0;
-    }
     string s;
     vector<pair<int, string>> code;
     while (getline(in, s)) {
