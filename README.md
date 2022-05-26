@@ -27,7 +27,7 @@ example:1093340_proj_2 test_data/test1.txt 2
 * **test1.txt**\
 為簡單範例，只有li、beq及addi
 * **test2.txt**\
-為自製測資，有li、bed、bne、add、addi，
+為自製測資，有li、beq、bne、add、addi，
 
 ## 執行結果
 以test_data/test1.txt為例，entry數量設定為2個
